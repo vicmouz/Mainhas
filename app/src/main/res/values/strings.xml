@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mainhas</string>
+    <string name="senha">Senhas</string>
+    <string name="btn_cadastro">Cadastrar</string>
+    <string name="btn_login">Logar</string>
+    <string name="senhaHint">Senha</string>
+    <string name="emailHint">Email</string>
+    <string name="nameHint">Nome</string>
+</resources>
