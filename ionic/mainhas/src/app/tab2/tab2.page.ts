@@ -13,14 +13,14 @@ export class Tab2Page {
    constructor() {}
   
    Postar(){
-    var descricao = document.getElementById('descricaoPost').value;
-    console.log(descricao);
+    //var descricao = document.getElementById('descricaoPost').value;
+    //console.log(descricao);
     console.log(this.posts);
     this.posts = [{"nome":"Gabi","descricao":"ela é mãe solo,ela é mãe solo,ela é mãe solo,ela é mãe solo,ela é mãe solo", "foto":"../../assets/images/foto1.jpeg"},
     {"nome":"Madu","descricao":"ela é mãe solo,ela é mãe solo,ela é mãe solo,ela é mãe solo,ela é mãe solo", "foto":"../../assets/images/foto2.jpeg"},
     {"nome":"Jessica","descricao":"ela é mãe solo,ela é mãe solo,ela é mãe solo,ela é mãe solo,ela é mãe solo", "foto":"../../assets/images/foto3.jpeg"},
-    {"nome":"Gabi","descricao":descricao, "foto":"../../assets/images/foto1.jpeg"}];
-     document.getElementById('descricaoPost').innerText = '';
+    {"nome":"Gabi","descricao":"oi", "foto":"../../assets/images/foto1.jpeg"}];
+    document.getElementById('descricaoPost').innerText = '';
    }
  
 }
