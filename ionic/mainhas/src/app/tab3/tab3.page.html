@@ -7,11 +7,35 @@
 </ion-header>
 
 <ion-content>
-  <br>
-  <br>
-  <ion-button (click)="acoes()" expand="block">Ações</ion-button>
-  <br>
-  <ion-button (click)="campanhas()" expand="block">Campanhas</ion-button>
-  <br>
-  <ion-button (click)="projetos()" expand="block">Projetos</ion-button>
+  <div>
+    <ion-card (click)="acoes()" style="margin-top: 130px; background-color: #FFF">
+      <ion-card-header>
+        <ion-card-title style="text-align: center">Ações</ion-card-title>
+      </ion-card-header>
+      <ion-card-content style="position: relative;margin: 0 auto">
+        <img src="../../assets/images/icon-people.png"
+          style="max-height:45px;max-width: 45px;position: relative;margin: 0 auto;">
+      </ion-card-content>
+    </ion-card>
+    <br>
+    <ion-card (click)="campanhas()" style="background-color: #FFF">
+      <ion-card-header>
+        <ion-card-title style="text-align: center">Campanhas</ion-card-title>
+      </ion-card-header>
+      <ion-card-content style="position: relative;margin: 0 auto">
+        <img src="../../assets/images/fist.png"
+          style="max-height:45px;max-width: 45px;position: relative;margin: 0 auto;">
+      </ion-card-content>
+    </ion-card>
+    <br>
+    <ion-card (click)="projetos()" style="background-color: #FFF">
+      <ion-card-header>
+        <ion-card-title style="text-align: center">Projetos</ion-card-title>
+      </ion-card-header>
+      <ion-card-content style="position: relative;margin: 0 auto">
+        <img src="../../assets/images/plaining.png"
+          style="max-height:45px;max-width: 45px;position: relative;margin: 0 auto;">
+      </ion-card-content>
+    </ion-card>
+  </div>
 </ion-content>
